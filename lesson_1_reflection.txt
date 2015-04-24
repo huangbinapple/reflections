@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I can use diff to check where I have been modified my code, and check each
+    modification to make sure that it is the same as what I want. If not, such
+    as a typo happen, I can change that immediately.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because after we modify our code not properly, situation may get worse and
+    worse, since we did't save history version, we can't go back. We have to work
+    from head to make things work again. If we store the history version, when
+    things go wrong, we just need to undo the modification we made recently, and
+    try to modify agian.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Having a commit manually saved give me a lot of flexibility, but it is
+    subjective. I may to absorbed in writing code and fogot about saving
+    commit. Automatically saving can reduce my load a little bit, but
+    the commit it saved may could not pass compile, what's worse, I have
+    no chance to write a memo when a new commit created.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because git was mainly designed to build software. In software enginering, 
+    files are often related to each other, if you want to go back to a history
+    point, it make no sence to just make a single file to its previous version,
+    cause this may cause other files which use funtion in this code not funtional.
+    Google doc, on the other hand, is not designed to build code, and often working 
+    on files that is not co-related.
+    
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use log command to see all the changes I have made through history, and 
+    each history version has a commit ID. To see how that version is different to
+    current version, use diff command followed by current version's commit ID and
+    previous version's commit ID.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since I can "restore" history, I can make any changes I like confidently! If
+    anything goes wrong, I can retore to the point when things did not mess up.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
