@@ -8,7 +8,8 @@ What value do you think it offers?
 	staging area is differ from working directory because: we can add commit to
 	a staging area, but not a working directory.
 	staging area is differ from repository because: repository is where we store
-	multiple commit. staging area is where we try to make a commit of..
+	multiple commit. staging area is where we try to make a commit of.
+	By staging area, we can make sure we can commit one logic change at a time.
 	
 
 How can you use the staging area to make sure you have one commit per logical
