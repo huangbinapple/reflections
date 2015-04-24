@@ -37,4 +37,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git automatic merging vs. always doing merges
 manually?
+	Automerging can save coder a lot of effort, but some time it may don't know
+	how to manage confict, so it's wise to let the code solve the confict part, while
+	do the apparent merge automatically.
 
