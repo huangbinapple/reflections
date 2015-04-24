@@ -21,6 +21,10 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When we want to go to different directions. Or when we view our history, we
+	may think it would be better if we went thought another way. At above two 
+	situation, we can make a new brach, let history's path or make two different
+	version of future. What is more excited is we can jump between different version.
 
 How do the diagrams help you visualize the branch structure?
 
