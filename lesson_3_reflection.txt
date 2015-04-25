@@ -13,3 +13,11 @@ Describe the differences between forks, clones, and branches. When would you use
   about it and want to make some modification.
   U use clone when I want to store a repository on github locally on my computer. 
   I make a branch when I make a change in one of my repository and want to keep track of it.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  By doing so, we can know what change has the remote repository have done since last sync.
+  if Nothing has the remote change, the we update what we have modified locally to remote;
+  if Nothing has change locally, but some has on remote, then we download the change has made
+  in remote to local repository; if both on remote side and local side have happend some changes,
+  then we made a new branch on merge on both side; if neither side have benn change yet sime last
+  sync, then nothing happen.
