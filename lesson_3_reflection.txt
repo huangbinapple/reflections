@@ -21,3 +21,7 @@ What is the benefit of having a copy of the last known state of the remote store
   in remote to local repository; if both on remote side and local side have happend some changes,
   then we made a new branch on merge on both side; if neither side have benn change yet sime last
   sync, then nothing happen.
+
+  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    By sending email taching files.
+    Using Git and Github would be easier.
