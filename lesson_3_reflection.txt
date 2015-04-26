@@ -2,26 +2,41 @@ When would you want to use a remote repository rather than keeping all your work
   When I tranval around the word, but do not have a computer along with me, or when I
   work both at home and at company, useing different machine building the same project.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically
+ stay up-to-date with your remote repository?
   I can't find a reason, I think use automatical machaanisim if fine.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
   Fork is I make a copy of a repository on github and host it on my own github accout.
-  Clone is I make a copy of a repository on github or my local machine to my local machine.
+  Clone is I make a copy of a repository on github or my local machine to my local 
+  machine.
   Brach is a particular commit in a repository.
-  I use fork when I surf the github and found some one else's repository and feel interested
-  about it and want to make some modification.
-  U use clone when I want to store a repository on github locally on my computer. 
-  I make a branch when I make a change in one of my repository and want to keep track of it.
+  I use fork when I surf the github and found some one else's repository and feel 
+  interested about it and want to make some modification.
+  I use clone when I want to store a repository on github locally on my computer. 
+  I make a branch when I make a change in one of my repository and want to keep 
+  track of it.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
   By doing so, we can know what change has the remote repository have done since last sync.
   if Nothing has the remote change, the we update what we have modified locally to remote;
-  if Nothing has change locally, but some has on remote, then we download the change has made
-  in remote to local repository; if both on remote side and local side have happend some changes,
-  then we made a new branch on merge on both side; if neither side have benn change yet sime last
-  sync, then nothing happen.
+  if Nothing has change locally, but some has on remote, then we download the change 
+  has made in remote to local repository; if both on remote side and local side have happend
+  some changes, then we made a new branch on merge on both side; if neither side have benn 
+  change yet sime last sync, then nothing happen.
 
-  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-    By sending email taching files.
-    Using Git and Github would be easier.
+How would you collaborate without using Git or GitHub? What would be easier, and what would 
+be harder?
+  By sending email taching files.
+  Using Git and Github would be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+  When I want to develop a experimental feature, and do no know if it will work yet, I will try
+  it in a seperate branch rather, after it is proved work in its branch, will I then merge it 
+  into master.
+  The advantage of this is as I work on the branch, I can still work on my master branch. Also, I
+  can have mutiple different branch so I can develop mutiple new feature simultaniously.
+  The advantage of make change directly in master is I can reduce some merge routing later on.
+  
